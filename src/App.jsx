@@ -1,20 +1,13 @@
-// Componente do React JS
-// const - palavra reservada para declarar constantes
-// App - componente ReactJS deve iniciar com letra maiúscula
-// () - passagem de parâmetros
-// => - seta de função anônima
-// { } - escopo do componete JSX
-const App = () => {
-  // Área de programação JavaScript
+function App(){
+
   return (
-    <>
-    {/* comentário na área estática do ReactJS*/}
-    Aula DSA2
-    </>
+    <div>
+      <h1>
+        Aula DSA2
+        <p>Aula de Desenvolvimento de Sistemas</p>
+      </h1>
+    </div>
   )
 }
-// <> - Fragmento de janela - tag HTML
-// export - publica componente
-// default - componente padrão do projeto
-// App - no do componente exportado
+
 export default App;
